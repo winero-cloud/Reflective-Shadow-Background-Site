@@ -1,0 +1,239 @@
+/* Document styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+/* General division styling  */
+.general-wrap {
+  position: relative;
+  width: 480px;
+  height: 600px;
+  background: #252524;
+  box-shadow: 0 0 50px  rgb(183, 224, 142);
+  border-radius: 20px;
+  padding:  5px 50px;
+}
+
+/* Users Agreement page boxicon styling */
+.general-wrap i{
+  position: absolute;
+  font-size: 25px;
+  color: rgb(158, 204, 115);
+  padding:  3px 15px;
+}
+
+/* Users Agreement page link styling */
+ 
+.general-wrap i a{
+  color: rgb(158, 204, 115);
+ text-decoration: none;
+ font-size: 18px;
+}
+ 
+
+/* Signup page styling */
+#signUp-wrap{
+  position: relative;
+  width: 500px;
+  height: 730px;
+  background: #252524;
+  box-shadow: 0 0 50px  rgb(183, 224, 142);
+  border-radius: 20px;
+  padding:  5px 50px; 
+}
+
+/* All pages form styling */
+.form-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* All pages logo styling */
+.logo {
+  margin-left: 30%;
+    padding: 25px;
+  
+}
+
+/* All pages header styling */
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Users Agreement page header styling */
+h3{
+   font-size: 25px;
+    text-align: center;
+    color: rgb(226, 244, 209);
+    margin: 30px 15px 15px ;
+    padding: 6.2%;
+}
+
+/*Users Agreement page paragraph styling  */
+#User-Agree{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(226, 244, 209);
+    margin: 15x 15px 15px;
+}
+
+/* All pages input styling */
+.all-input{
+    position: relative;
+    margin: 15px 0;   
+    
+}
+
+.all-input input{
+    width: 400px;
+    height: 40px;
+    padding: 0 3px
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+        
+  }
+
+  .all-input i{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: black;
+    
+  }
+
+  /* Forget Password page Verification code input styling */
+  #verify-code input{
+    width:290px;
+    height: 40px;
+    padding: 0 3px
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+
+  /* index page Remember - forget styling  */
+  .Remember-forget{
+ display: flex;
+ justify-content: space-between;
+  margin: -5px 0 15px 5px;
+ color: beige;
+ 
+ }
+
+ /* index page Remember -forget link styling  */
+ .Remember-forget a{
+  color: rgb(183, 224, 142);
+  text-decoration: none;
+   }
+
+   .Remember-forget a:hover{
+    text-decoration: underline;
+   }
+
+   /* Users Page link styling */
+   .userAgree{
+   margin: 0 15px 5px;
+ color: beige;
+ font-size: 14.5px;
+   }
+   .userAgree a{
+    color: rgb(183, 224, 142);
+  text-decoration: none;
+   }
+   .userAgree a:hover{
+    text-decoration: underline;
+   }
+
+   /*  All Button styling */
+ button{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: rgb(183, 224, 142);
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: 10px 0;
+  font-size: 20px ;
+  cursor: pointer;
+ }
+
+ /* Get code button styling */
+ #get-code{
+  position: relative;
+  width: 25%;
+  height: 35px;
+  background: rgb(183, 224, 142);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: 10px 0;
+  font-size: 15px ;
+  cursor: pointer;
+ }
+
+ /* Reset Password button link styling */
+   .butn a{
+   margin: 0 15px 5px;
+ color: rgb(14, 14, 13);
+ text-decoration: none;
+    }
+   
+  
+ /* Index page create account link styling */
+ .createAcct {
+  text-align: center;
+  color: beige;
+ }
+
+.createAcct a{
+    color: rgb(183, 224, 142);
+    text-decoration: none;
+    font-weight: 500;
+ }
+
+ .createAcct a:hover{
+  text-decoration: underline;
+ }
+ 
+ /* index page create account paragraph styling  */
+ p{
+   text-align: center;
+  color: beige;
+ }
+
+p a{
+    color: rgb(183, 224, 142);
+    text-decoration: none;
+    font-weight: 500;
+ }
+
+ p a:hover{
+  text-decoration: underline;
+ }
+
+ 
